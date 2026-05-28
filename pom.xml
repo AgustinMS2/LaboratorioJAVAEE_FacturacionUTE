@@ -53,6 +53,7 @@
                 <configuration>
                     <version>${wildfly.version}</version>
                     <server-config>standalone-full.xml</server-config>
+                    <java-opts>-Djboss.socket.binding.port-offset=1</java-opts>
                     <add-user>
 
                         <users>
